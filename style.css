@@ -54,3 +54,52 @@ a:hover {
 .logo:hover {
   cursor: default;
 }
+/* Profile Picture */
+section {
+  padding-top: 10px;
+  height: 50px;
+  margin: 0 5px;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
+
+.section-container {
+  display: flex;
+}
+
+#profile {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  height: 40px;
+}
+
+.section-picture {
+  display: flex;
+  height: 200px;
+}
+
+.section-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.section-text p {
+  font-weight: 600;
+  color: black;
+}
+
+.section-text-p1 {
+  text-align: center;
+}
+
+.section-text-p1 {
+  font-size: 20px;
+  margin-bottom: 2px;
+}
+
+.title {
+  font-size: 25px;
+  text-align: center;
+  color: black;
+}
