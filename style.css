@@ -17,7 +17,7 @@ p {
   color: rgb(85, 85, 85);
 }
 
-/* Nav */
+/* Navigation bar */
 nav, 
 .links {
   display: flex;
@@ -54,11 +54,13 @@ a:hover {
 .logo:hover {
   cursor: default;
 }
-/* Profile Picture */
+
+/* Sections */
+
 section {
-  padding-top: 10px;
-  height: 50px;
-  margin: 0 5px;
+  padding-top: 4vh;
+  /* height: 96vh; */
+  margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
 }
@@ -67,21 +69,24 @@ section {
   display: flex;
 }
 
+/* Profile Section */
 #profile {
   display: flex;
   justify-content: center;
-  gap: 30px;
-  height: 40px;
+  height: 400px;
+  margin-top: 10px;
 }
 
 .section-picture {
   display: flex;
-  height: 200px;
+  height: 300px;
+  width: 300px;
+  margin: auto 0;
 }
 
 .section-text {
   text-align: center;
-  margin-top: 20px;
+  align-self: center;
 }
 
 .section-text p {
@@ -91,6 +96,7 @@ section {
 
 .section-text-p1 {
   text-align: center;
+  color: black;
 }
 
 .section-text-p1 {
@@ -99,7 +105,117 @@ section {
 }
 
 .title {
-  font-size: 25px;
+  font-size: 40px;
   text-align: center;
   color: black;
 }
+
+/* About Me */
+
+#about {
+  position: relative;
+}
+
+.title-about {
+  margin-bottom: 20px;
+  font-size: 30px;
+  text-align: center;
+  color: black;
+}
+
+.text-container p {
+  font-size: 20px;
+  text-align: center;
+  color: black;
+}
+
+/* Projects */
+
+
+.container-projects{
+  /* background-color: #cacaca; */
+  padding: 10px;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  /* background-color: lightblue; */
+  color: black;
+  font-size: 35px;
+  padding: 20px;
+  margin: 10px;
+  border: 5px solid #555 ;
+}
+
+.project-1 {
+  border: 5px solid #050202 ;
+  
+}
+
+.contact-info {
+  background-color: lightblue;
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin: 20px;
+}
+
+.contact-info h2 {
+  color: #333;
+}
+
+.contact-info p {
+  margin: 10px 0;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  /* position: fixed; */
+  bottom: 0;
+  width: 100%;
+}
+
+
+
+/* .card {
+  border-style: solid;
+  background-color: deeppink;
+  border-width: 1px;
+  border-radius: 50px;
+  padding: 10px;
+  flex: 0 0 200px;
+}
+
+  .card-1 {
+    border-style: solid;
+    background-color:aqua
+    border-width: 1px;
+    border-radius: 50px;
+    padding: 10px;
+    flex: 0 0 200px;
+  
+    box-shadow: 10px 10px 5px #aaaaaa;
+    margin: 20px;
+}
+
+.card > header {
+  border-radius: 50px 50px 0px 0px;
+  padding: 20px;
+}
+
+.card > p {
+  text-align: center;
+}
+
+.card > img {
+  width: 100%;
+  } */
+
+
+
